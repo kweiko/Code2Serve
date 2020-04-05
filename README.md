@@ -1,1 +1,1 @@
-# Code2Serve
+# GYDE website
