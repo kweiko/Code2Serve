@@ -1048,8 +1048,11 @@ p {
   @media (max-width: 767px) {
     .counter-wrapper {
       padding-left: 0; } }
+  .counter-wrapper .counter-content .title {
+    color: white; }
   .counter-wrapper .counter-content .text {
-    margin-top: 35px; }
+    margin: 15px 0;
+    color: white; }
   .counter-wrapper .single-counter {
     max-width: 155px;
     height: 120px;
