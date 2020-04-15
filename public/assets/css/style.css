@@ -1150,7 +1150,34 @@ p {
      }
 
 /*===========================
-     08.TESTIMONIAL css 
+       08.PRICES css 
+===========================*/
+.single-price-pack {
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(167, 167, 167, 0.16);
+  -moz-box-shadow: 0px 0px 30px 0px rgba(167, 167, 167, 0.16);
+  box-shadow: 0px 0px 30px 0px rgba(167, 167, 167, 0.16);
+  overflow: hidden;
+  border-radius: 10px; }
+  .single-price-pack .process-icon {
+    position: relative; }
+  .single-process .process-icon img {
+    padding-top: 30px; }
+  .single-process .process-content {
+    padding: 30px; }
+    .single-price-pack .price-pack-content .title a {
+      font-size: 20px;
+      font-weight: 700;
+      color: #2E2E2E; }
+    .single-price-pack .price-pack-content .text {
+      margin-top: 5px; }
+  .single-price-pack:hover {
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(167, 167, 167, 0.4);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(167, 167, 167, 0.4);
+    box-shadow: 0px 0px 30px 0px rgba(167, 167, 167, 0.4);
+     }
+
+/*===========================
+     09.TESTIMONIAL css 
 ===========================*/
 .single-testimonial {
   background-color: #fff;
