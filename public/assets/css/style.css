@@ -1,12 +1,12 @@
 /*-----------------------------------------------------------------------------------
 
-    Template Name: Sass Landing Page,
-    Template URI: site.com
-    Description: Sass Landing Page,
+    Template Name: GYDE Landing Page,
+    Template URI: gyde.se
+    Description: GYDE Landing Page,
     Author: Uideck
     Author URI: https://uideck.com/
     Support: https://uideck.com/support/
-    Version: 1.0
+    Version: 2.0
 
 -----------------------------------------------------------------------------------
 
@@ -19,11 +19,12 @@
     04.SERVICES
     05.ABOUT
     06.VIDEO COUNTER
-    07.TEAM
-    08.TESTIMONIAL
-    09.BLOG
-    10.SUBSCRIBE
-    11.FOOTER
+    07.PROCESS
+    08.PRICES
+    09.TESTIMONIAL
+    10.BLOG
+    11.SUBSCRIBE
+    12.FOOTER
 
 -----------------------------------------------------------------------------------*/
 /*===========================
@@ -1158,18 +1159,27 @@ p {
   box-shadow: 0px 0px 30px 0px rgba(167, 167, 167, 0.16);
   overflow: hidden;
   border-radius: 10px; }
-  .single-price-pack .process-icon {
-    position: relative; }
-  .single-process .process-icon img {
-    padding-top: 30px; }
-  .single-process .process-content {
-    padding: 30px; }
-    .single-price-pack .price-pack-content .title a {
-      font-size: 20px;
-      font-weight: 700;
-      color: #2E2E2E; }
-    .single-price-pack .price-pack-content .text {
-      margin-top: 5px; }
+  .single-price-pack .price-pack-header {
+    padding: 30px;
+    background-color:#f84077; }
+  .single-price-pack .price-pack-header.package {
+    background-color:#2e82ef; }
+  .single-price-pack .price-pack-header .title {
+    font-size: 2em;
+    font-weight: 700;
+    color: #fff; }
+  .single-price-pack .price-pack-header .text {
+    color: #fff;
+  }
+  .single-price-pack .price-pack-body { 
+    padding: 20px 0;
+  }
+    .single-price-pack .price-pack-body .price {
+      font-size: 1.5em; }
+    .single-price-pack .price-pack-body .price-list {
+      padding: 20px 0; }
+      .single-price-pack .price-pack-body .price-list li {
+          margin-bottom: 10px; }
   .single-price-pack:hover {
     -webkit-box-shadow: 0px 0px 30px 0px rgba(167, 167, 167, 0.4);
     -moz-box-shadow: 0px 0px 30px 0px rgba(167, 167, 167, 0.4);
