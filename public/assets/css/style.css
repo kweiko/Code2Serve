@@ -1437,18 +1437,18 @@ p {
       .footer-about .social li a:hover {
         color: #FE8464; }
 
-.footer-contact {
+.footer-widget .contact-wrapper {
   width: 100%; }
-  .footer-contact h2{ 
+  .footer-widget .contact-wrapper h2{ 
     color: white; }
-  .footer-contact .cf1 {
-    display: block;
-    margin: 0 0 10px 0;
-    padding: 3px 7px;
-    border-radius: 5px;
-    border-style: none;
-    width: 100%;
-    min-height: 40px; }
+    .footer-widget .contact-wrapper .cf1 {
+      display: block;
+      margin: 0 0 10px 0;
+      padding: 3px 7px;
+      border-radius: 5px;
+      border-style: none;
+      width: 100%;
+      min-height: 40px; }
 
 .footer-copyright {
   border-top: 1px solid rgba(255, 255, 255, 0.3);
