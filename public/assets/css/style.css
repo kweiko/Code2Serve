@@ -21,10 +21,11 @@
     06.VIDEO COUNTER
     07.PROCESS
     08.PRICES
-    09.TESTIMONIAL
-    10.BLOG
-    11.SUBSCRIBE
-    12.FOOTER
+    09.FEATURES
+    10.TESTIMONIAL
+    11.BLOG
+    12.SUBSCRIBE
+    13.FOOTER
 
 -----------------------------------------------------------------------------------*/
 /*===========================
@@ -1190,7 +1191,7 @@ p {
   width: 50px; }
 
 /*===========================
-     09.TESTIMONIAL css 
+     10.TESTIMONIAL css 
 ===========================*/
 .single-testimonial {
   background-color: #fff;
@@ -1275,7 +1276,7 @@ p {
       height: 15px; }
 
 /*===========================
-       09.BLOG  css 
+       11.BLOG  css 
 ===========================*/
 .single-blog .blog-image img {
   border-radius: 10px;
@@ -1310,7 +1311,7 @@ p {
       margin-left: 5px; }
 
 /*===========================
-       10.SUBSCRIBE  css 
+       12.SUBSCRIBE  css 
 ===========================*/
 .subscribe-area {
   padding: 40px 50px 90px;
@@ -1390,7 +1391,7 @@ p {
       background-position: right center; }
 
 /*===========================
-       11.FOOTER  css 
+       13.FOOTER  css 
 ===========================*/
 .footer-area {
   background-position: top center;
