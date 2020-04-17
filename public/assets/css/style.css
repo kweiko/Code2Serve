@@ -1182,6 +1182,14 @@ p {
           margin-bottom: 10px; }
 
 /*===========================
+     09.FEATURES css 
+===========================*/
+.single-feature {
+  margin: auto; }
+  .single-feature .feature-icon img{
+  width: 50px; }
+
+/*===========================
      09.TESTIMONIAL css 
 ===========================*/
 .single-testimonial {
