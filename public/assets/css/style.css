@@ -1427,59 +1427,28 @@ p {
 .footer-about .logo img {
   width: 160px; }
 
-.footer-about .text {
-  color: #fff;
-  line-height: 30px;
-  margin-top: 30px; }
-
 .footer-about .social {
-  margin-top: 40px; }
+  margin-top: 30px; }
   .footer-about .social li {
-    display: inline-block;
-    margin-right: 30px; }
+    display: inline-block; }
     .footer-about .social li a {
       font-size: 22px;
-      color: #fff;
-      -webkit-transition: all 0.3s ease-out 0s;
-      -moz-transition: all 0.3s ease-out 0s;
-      -ms-transition: all 0.3s ease-out 0s;
-      -o-transition: all 0.3s ease-out 0s;
-      transition: all 0.3s ease-out 0s; }
+      color: #fff; }
       .footer-about .social li a:hover {
         color: #FE8464; }
 
-.footer-title .title {
-  font-size: 24px;
-  font-weight: 700;
-  color: #fff; }
-
-.link-wrapper {
-  padding: 0 35px; }
-  @media (max-width: 767px) {
-    .link-wrapper {
-      padding: 0;
-      padding-right: 50px; } }
-  .link-wrapper .link {
-    padding-top: 20px; }
-    .link-wrapper .link li {
-      margin-top: 20px; }
-      .link-wrapper .link li a {
-        font-size: 16px;
-        color: #fff;
-        -webkit-transition: all 0.3s ease-out 0s;
-        -moz-transition: all 0.3s ease-out 0s;
-        -ms-transition: all 0.3s ease-out 0s;
-        -o-transition: all 0.3s ease-out 0s;
-        transition: all 0.3s ease-out 0s; }
-        .link-wrapper .link li a:hover {
-          color: #FE8464; }
-
-.footer-contact .contact {
-  padding-top: 20px; }
-  .footer-contact .contact li {
-    margin-top: 20px;
-    font-size: 16px;
-    color: #fff; }
+.footer-contact {
+  width: 100%; }
+  .footer-contact h2{ 
+    color: white; }
+  .footer-contact .cf1 {
+    display: block;
+    margin: 0 0 10px 0;
+    padding: 3px 7px;
+    border-radius: 5px;
+    border-style: none;
+    width: 100%;
+    min-height: 40px; }
 
 .footer-copyright {
   border-top: 1px solid rgba(255, 255, 255, 0.3);
@@ -1490,15 +1459,10 @@ p {
   padding-top: 15px;
   text-align: center; }
   .copyright-content p {
-    color: #fff; }
+    color: #B9B9B9; }
   .copyright-content a {
     font-size: 16px;
-    color: #fff;
-    -webkit-transition: all 0.3s ease-out 0s;
-    -moz-transition: all 0.3s ease-out 0s;
-    -ms-transition: all 0.3s ease-out 0s;
-    -o-transition: all 0.3s ease-out 0s;
-    transition: all 0.3s ease-out 0s; }
+    color: rgb(219, 219, 219); }
     .copyright-content a:hover {
       color: #FE8464; }
 
